@@ -1,0 +1,40 @@
+﻿Build started 2014/6/12 15:29:19.
+     1>Project "D:\cygwin\home\test_pelco\test_pelco\test_pelco.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\test_pelco.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\test_pelco.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\test_pelco.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Pelco_D.cpp test_pelco.cpp test_pelcoDlg.cpp
+         Pelco_D.cpp
+     1>Pelco_D.cpp(102): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Pelco_D.cpp(103): warning C4267: “=”: 从“size_t”转换到“UINT”，可能丢失数据
+         test_pelco.cpp
+         test_pelcoDlg.cpp
+     1>test_pelcoDlg.cpp(217): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Pan”
+     1>test_pelcoDlg.cpp(232): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Pan”
+     1>test_pelcoDlg.cpp(261): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Tilt”
+     1>test_pelcoDlg.cpp(276): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Tilt”
+     1>test_pelcoDlg.cpp(290): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Zoom”
+     1>test_pelcoDlg.cpp(304): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Pelco_D_Protocol::CPelco_D::Zoom”
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\test_pelco.res" test_pelco.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cygwin\home\test_pelco\x64\Release\test_pelco.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"x64\Release\test_pelco.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cygwin\home\test_pelco\x64\Release\test_pelco.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cygwin\home\test_pelco\x64\Release\test_pelco.lib" /MACHINE:X64 x64\Release\test_pelco.res
+         x64\Release\Pelco_D.obj
+         x64\Release\stdafx.obj
+         x64\Release\test_pelco.obj
+         x64\Release\test_pelcoDlg.obj
+         正在生成代码
+         已完成代码的生成
+         test_pelco.vcxproj -> D:\cygwin\home\test_pelco\x64\Release\test_pelco.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\cygwin\home\test_pelco\x64\Release\test_pelco.exe;#1" /manifest x64\Release\test_pelco.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\test_pelco.unsuccessfulbuild".
+         Touching "x64\Release\test_pelco.lastbuildstate".
+     1>Done Building Project "D:\cygwin\home\test_pelco\test_pelco\test_pelco.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.70
